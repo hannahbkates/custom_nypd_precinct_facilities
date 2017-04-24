@@ -1,6 +1,6 @@
 #mapContainer {
   width: 50%;
-  height: 600px;
+  height: 700px;
   display: inline-block;
 }
 
@@ -10,5 +10,10 @@
   padding: 15px;
   background: #cdcdcd;
   width: 50%;
-  height: 600px;
+  height: 700px;
+}
+
+@media (min-width: 1200px)
+.container {
+    width: 500px !important;
 }
