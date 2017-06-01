@@ -82,7 +82,7 @@ $.getJSON(facsubset_url, function(facsubset_data) {
       + '<td width="28%">' + facsubset_data.features[i].properties.facname + '</td>'
       + '<td width="28%">' + facsubset_data.features[i].properties.facsubgrp + '</td>'
       + '<td width="28%">' + facsubset_data.features[i].properties.address + '</td>'
-      + '<td width="16%"><a href=\'https://capitalplanning.nyc/facility/' + facsubset_data.features[i].properties.uid + '\' target=\'_blank\'>Link to more details</a></td>'
+      + '<td width="16%"><a href=\'https://capitalplanning.nyc/facility/' + facsubset_data.features[i].properties.uid + '\' target=\'_blank\'>More details</a></td>'
     + '</tr>';
 
     $('.table-body').append(myRow);
